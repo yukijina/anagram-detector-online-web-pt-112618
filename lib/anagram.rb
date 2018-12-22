@@ -16,7 +16,8 @@ class Anagram
         
         string
       elsif string.chars.sort != @anagram.chars.sort
-        array.clear
+        puts "nooo"
+        #array.clear
       end
     end.flatten.compact
     
