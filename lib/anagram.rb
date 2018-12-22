@@ -17,7 +17,7 @@ class Anagram
       else 
         array.clear
       end
-    end.flatten
+    end.flatten.compact
     
   end 
   
