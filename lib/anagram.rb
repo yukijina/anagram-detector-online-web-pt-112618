@@ -11,7 +11,7 @@ class Anagram
   
   def match(array)
     array.map do |string|
-      binding.pry
+      #binding.pry
       if string.chars.sort == @anagram.chars.sort 
         string
       #elsif
