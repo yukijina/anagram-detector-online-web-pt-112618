@@ -13,7 +13,6 @@ class Anagram
     array.map do |string|
       binding.pry
       if string.chars.sort == @anagram.chars.sort 
-        
         string
       elsif string.chars.sort != @anagram.chars.sort
         puts "nooo"
