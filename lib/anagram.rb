@@ -14,8 +14,7 @@ class Anagram
       binding.pry
       if string.chars.sort == @anagram.chars.sort 
         string
-      elsif
-        puts "nooo"
+      #elsif
         #array.clear
       end
     end.flatten.compact
