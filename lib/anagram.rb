@@ -13,7 +13,7 @@ class Anagram
     array.map do |string|
       binding.pry
       if string.chars.sort == @anagram.chars.sort 
-        return string
+        string
       else 
         puts "nooo"
         #array.clear
