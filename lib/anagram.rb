@@ -8,19 +8,10 @@ class Anagram
     @anagram = word
   end 
   
-  
   def match(array)
     array.map do |string|
-      #binding.pry
-      if string.chars.sort == @anagram.chars.sort 
-        string
-      #elsif
-        #array.clear
-      end
+      string if string.chars.sort == @anagram.chars.sort 
     end.flatten.compact
-    
-    
   end 
-  
   
 end
