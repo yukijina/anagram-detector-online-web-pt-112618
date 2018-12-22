@@ -15,7 +15,7 @@ class Anagram
       if string.chars.sort == @anagram.chars.sort 
         
         string
-      else 
+      elsif string.chars.sort != @anagram.chars.sort
         array.clear
       end
     end.flatten.compact
