@@ -11,7 +11,7 @@ class Anagram
   def match(array)
     array.find do |string|
       if string.chars.sort == @anagram.chars.sort 
-        string.split
+        string
       else 
         array.clear
       end
