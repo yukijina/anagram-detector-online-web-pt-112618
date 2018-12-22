@@ -12,12 +12,13 @@ class Anagram
   def match(array)
     array.map do |string|
       if string.chars.sort == @anagram.chars.sort 
+        binding.pry
         string
       else 
         array.clear
       end
     end.flatten.compact
-    binding.pry
+    
     
   end 
   
