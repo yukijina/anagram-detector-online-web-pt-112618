@@ -8,15 +8,17 @@ class Anagram
     @anagram = word
   end 
   
+  
   def match(array)
     array.find do |string|
-      binding.pry
+      
       if string.chars.sort == @anagram.chars.sort 
         string.split
       else 
         array.clear
       end
     end 
+    binding.pry
   end 
   
   
