@@ -10,6 +10,7 @@ class Anagram
   
   
   def match(array)
+    binding.pry
     array.map do |string|
       if string.chars.sort == @anagram.chars.sort 
         string
