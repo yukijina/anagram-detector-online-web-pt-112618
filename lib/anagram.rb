@@ -14,7 +14,7 @@ class Anagram
       binding.pry
       if string.chars.sort == @anagram.chars.sort 
         string
-      else 
+      elsif
         puts "nooo"
         #array.clear
       end
