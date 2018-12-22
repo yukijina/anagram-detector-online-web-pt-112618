@@ -12,7 +12,7 @@ class Anagram
     array.find do |string|
       binding.pry
       if string.chars.sort == @anagram.chars.sort 
-        string
+        string.split
       else 
         array.clear
       end
